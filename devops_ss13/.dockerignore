@@ -1,0 +1,31 @@
+# Git và IDE
+.git
+.gitignore
+.idea
+**/*.iml
+.vscode
+
+# Build output / dependency đã cài
+**/build
+**/.gradle
+**/node_modules
+**/dist
+**/target
+
+# Frontend không cần cho image backend
+frontend
+
+# Tài liệu, log, file nhạy cảm
+README.md
+docs
+**/*.log
+.env
+.env.*
+**/.env
+
+# Ảnh chụp, file tạm
+**/*.png
+**/*.jpg
+**/*.md
+**/*.tmp
+**/Thumbs.db
